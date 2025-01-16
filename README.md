@@ -60,6 +60,7 @@ Demo: [https://dariulonepost.onrender.com](https://dariulonepost.onrender.com)
 
 ## Screenshots
 ![dariulonepost onrender com_](https://github.com/user-attachments/assets/a6e70b73-d8c0-4112-8fd6-e54476b3533d)
+![dariulonepost onrender com_ (1)](https://github.com/user-attachments/assets/85e8b98f-30b9-45d5-b07e-78358b3bee87)
 ![dariulonepost onrender com_ (2)](https://github.com/user-attachments/assets/f2f94b6e-6d1b-4bd4-b198-996a16720981)
 ![dariulonepost onrender com_ (3)](https://github.com/user-attachments/assets/74be7096-61bf-4e42-9b92-d54ba10ebaa2)
 ![dariulonepost onrender com_ (4)](https://github.com/user-attachments/assets/60c62c56-d02c-4428-9718-4628ac47cb80)
@@ -69,5 +70,5 @@ Demo: [https://dariulonepost.onrender.com](https://dariulonepost.onrender.com)
 ![dariulonepost onrender com_profile_2_](https://github.com/user-attachments/assets/08b101df-510c-4c2b-afb1-c50f7ad392e7)
 ![dariulonepost onrender com_profile_2_ (1)](https://github.com/user-attachments/assets/f45f571c-6abc-442f-8362-f9a76650f7b9)
 ![dariulonepost onrender com_profile_2_ (2)](https://github.com/user-attachments/assets/98ef7433-3a02-4770-8273-5a7beacbcc26)
-![dariulonepost onrender com_ (1)](https://github.com/user-attachments/assets/85e8b98f-30b9-45d5-b07e-78358b3bee87)
+
 
