@@ -1,0 +1,17 @@
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh; /* Для того, чтобы контент заполнял весь экран */
+  background-color: #f8f8f8;
+}
+
+.content {
+  flex: 1;
+  margin-left: 256px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.demo-loadmore-list {
+  min-height: 350px;
+}

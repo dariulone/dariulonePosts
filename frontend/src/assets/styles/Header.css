@@ -1,0 +1,194 @@
+body {
+  padding-top: var(--header-height); /* Если header фиксирован, добавляем отступ для контента */
+}
+
+.sidebar {
+  width: var(--nav-width); /* Оставляем ширину для сайдбара */
+  position: fixed;
+  left: 0;
+  top: var(--header-height); /* Сдвигаем ниже header */
+  height: calc(100vh - var(--header-height)); /* Сохраняем высоту для сайдбара */
+  background: #fff; /* Задайте цвет фона для сайдбара */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 0; /* Убираем отступ на мобильных устройствах */
+  }
+
+  .sidebar {
+    display: none; /* Скрываем sidebar на маленьких экранах */
+  }
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.search-form {
+  display: flex;
+  width: 400px;
+  margin-left: 1rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.navbar-toggler {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.nav-link span {
+  font-size: 0.8rem;
+}
+
+.nav-link.active {
+  color: #007bff;
+}
+
+.nav-link i {
+  font-size: 1.5rem;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Расположить ниже элемента */
+  right: 0; /* Прижать к правому краю родителя */
+  left: auto; /* Убрать позицию по левому краю */
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+  z-index: 1050; /* Увеличьте z-index, чтобы меню отображалось выше других элементов */
+}
+
+.dropdown-menu.show2 {
+  display: block;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    display: none;
+    flex-direction: column;
+  }
+
+  .navbar-collapse.open {
+    display: flex;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .dropdown-menu {
+    width: 100%; /* Расширение на всю ширину экрана */
+    left: 0; /* Выравнивание по левому краю экрана */
+    right: 0; /* Убедиться, что меню не выходит за границы */
+  }
+
+}
+
+.profileindent {
+  margin-right: 1rem !important;
+}
+
+.contentindent {
+  padding-right: 220px;
+  padding-left: 220px;
+}
